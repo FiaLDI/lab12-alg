@@ -28,7 +28,7 @@ def edit_dist(a, b, len_a, len_b):
 
     def restore():
         """
-        Восстановление решения
+        Восстановление решения.
         """
         str_re1, str_re2 = [], []
         i, j = len_a, len_b
@@ -56,7 +56,7 @@ def edit_dist(a, b, len_a, len_b):
 
     def edit_dist_bu():
         """
-        Динамическое программирование снизу вверх
+        Динамическое программирование снизу вверх.
         """
         matrix = []
         for i in range(len_a+1):
