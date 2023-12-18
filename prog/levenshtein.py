@@ -73,7 +73,6 @@ def edit_dist(a, b, len_a, len_b):
                 ))
         return matrix
 
-    
     infinity = math.inf
     matrix = [[infinity] * (len_b+1) for _ in range(len_a+1)]
     edit_1, edit_2 = edit_dist_td(len_a, len_b), edit_dist_bu()
