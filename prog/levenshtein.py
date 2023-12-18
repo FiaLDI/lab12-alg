@@ -54,7 +54,6 @@ def edit_dist(a, b, len_a, len_b):
 
         return (str_re1, str_re2)
 
-
     def edit_dist_bu():
         """
         Динамическое программирование снизу вверх
@@ -89,6 +88,9 @@ def edit_dist(a, b, len_a, len_b):
 
 
 def main():
+    '''
+    Главная функция программы.
+    '''
     str_1 = "editing"
     str_2 = "distance"
     edit, solution = edit_dist(
